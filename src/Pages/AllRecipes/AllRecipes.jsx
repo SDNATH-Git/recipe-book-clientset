@@ -33,19 +33,19 @@ const AllRecipes = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 py-12 px-4 text-white">
+    <div className="min-h-screen bg-gradient-to-br bg-gray-300 py-12 px-4 text-white">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-extrabold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">
+        <h2 className="text-4xl font-extrabold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-400">
           All Recipes 🍽️
         </h2>
 
         {/* Filter Dropdown */}
         <div className="mb-12 text-center">
-          <label className="text-lg font-semibold text-orange-300 mr-2">Filter by Cuisine:</label>
+          <label className="text-lg font-semibold text-green-600 mr-2">Filter by Cuisine:</label>
           <select
             value={selectedCuisine}
             onChange={handleCuisineChange}
-            className="bg-gray-800 border border-orange-500 text-orange-200 px-4 py-2 rounded-lg focus:outline-none"
+            className="bg-white border border-green-600 text-green-400 px-4 py-2 rounded-lg focus:outline-none"
           >
             {cuisineTypes.map((type, index) => (
               <option key={index} value={type}>{type}</option>
@@ -60,7 +60,7 @@ const AllRecipes = () => {
             {filteredRecipes.map((recipe) => (
               <div
                 key={recipe._id}
-                className="bg-gray-950/70 border border-orange-500 rounded-2xl shadow-lg p-6 flex flex-col justify-between"
+                className="bg-gray-900 border border-orange-500 rounded-2xl shadow-lg p-6 flex flex-col justify-between"
               >
                 <img
                   src={recipe.image}

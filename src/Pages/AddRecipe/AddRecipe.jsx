@@ -74,7 +74,7 @@ const AddRecipe = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 py-12 px-4 text-white">
+    <div className="min-h-screen bg-gradient-to-br bg-gray-300 py-12 px-4 text-white">
       <div className="max-w-3xl mx-auto bg-gray-950/70 backdrop-blur-md rounded-3xl shadow-2xl p-10 border border-orange-700">
         {/* Back Button */}
         <button

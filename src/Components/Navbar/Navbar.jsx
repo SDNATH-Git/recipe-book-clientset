@@ -39,7 +39,6 @@ const Navbar = () => {
     { name: "All Recipes", path: "/all-recipes" },
     { name: "Add Recipe", path: "/add-recipes" },
     { name: "My Recipes", path: "/my-recipes" },
-    { name: "About Us", path: "/about-us" },
   ];
 
   const renderNavLinks = (onClickClose = null) =>

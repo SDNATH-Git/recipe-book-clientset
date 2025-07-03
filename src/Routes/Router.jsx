@@ -10,7 +10,6 @@ import ForgetPassword from "../Pages/ForgetPassword/ForgetPassword";
 import PrivateRoute from "../Provider/PrivateRoute";
 import RecipesDetails from "../Pages/RecipesDetails/RecipesDetails";
 import Error from "../Components/Error/Error";
-import About from "../Components/About/About";
 
 const router = createBrowserRouter([
   {
@@ -21,10 +20,6 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />,
-      },
-      {
-        path : "/about-us",
-        element : <About/>
       },
       {
         path: "/all-recipes",
