@@ -38,7 +38,7 @@ const faqData = [
 
 const Feq = () => {
   return (
-    <section className="bg-gray-900 text-white px-6 py-10 flex flex-col items-center justify-center">
+    <section className="bg-gray-300 text-red-600 px-6 py-10 flex flex-col items-center justify-center">
       <motion.h2
         className="text-3xl md:text-4xl font-bold mb-4 text-center"
         initial={{ opacity: 0, y: -20 }}
@@ -46,7 +46,7 @@ const Feq = () => {
         transition={{ duration: 0.6 }}
       >
         Frequently Asked{" "}
-        <span className="text-orange-500">
+        <span className="text-green-600">
           <Typewriter
             words={['Questions']}
             loop={0}
