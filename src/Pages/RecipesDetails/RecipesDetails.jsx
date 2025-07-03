@@ -79,8 +79,8 @@ const RecipesDetails = () => {
         : [];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white px-4 py-10 font-sans">
-      <div className="max-w-5xl mx-auto bg-gray-900/80 border border-gray-700 rounded-3xl shadow-2xl overflow-hidden">
+    <div className="min-h-screen bg-gray-300 text-white px-4 py-10 font-sans">
+      <div className="max-w-5xl mx-auto bg-gray-900 border border-gray-700 rounded-3xl shadow-2xl overflow-hidden">
         <img src={recipe.image} alt={recipe.title} className="w-full h-96 object-cover" />
 
         <div className="p-8">
