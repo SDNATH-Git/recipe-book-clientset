@@ -47,7 +47,7 @@ const AddRecipe = () => {
       likeCount: 0,
     };
 
-    fetch("http://localhost:3000/add-recipes", {
+    fetch("https://recipe-book-server-blond.vercel.app/add-recipes", {
       method: "POST",
       headers: {
         "content-type": "application/json",

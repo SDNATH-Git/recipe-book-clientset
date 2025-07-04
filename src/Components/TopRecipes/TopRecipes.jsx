@@ -7,7 +7,7 @@ const TopRecipes = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('http://localhost:3000/top-recipes')
+    fetch('https://recipe-book-server-blond.vercel.app/top-recipes')
       .then(res => res.json())
       .then(data => setRecipes(data));
   }, []);

@@ -8,7 +8,7 @@ const AllRecipes = () => {
   const [selectedCuisine, setSelectedCuisine] = useState('All');
 
   useEffect(() => {
-    fetch('http://localhost:3000/add-recipes')
+    fetch('https://recipe-book-server-blond.vercel.app/add-recipes')
       .then(res => res.json())
       .then(data => {
         setRecipes(data);

@@ -15,7 +15,7 @@ const RecipesDetails = () => {
 
   // Fetch recipe details on mount
   useEffect(() => {
-    fetch(`http://localhost:3000/recipes-details/${id}`)
+    fetch(`https://recipe-book-server-blond.vercel.app/recipes-details/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setRecipe(data);
@@ -37,7 +37,7 @@ const RecipesDetails = () => {
     }
 
     try {
-      const res = await fetch(`http://localhost:3000/recipes-details/${id}/like`, {
+      const res = await fetch(`https://recipe-book-server-blond.vercel.app/recipes-details/${id}/like`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

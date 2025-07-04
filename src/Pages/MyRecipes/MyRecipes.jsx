@@ -28,7 +28,7 @@ const MyRecipes = () => {
     if (userEmail) {
       setLoading(true);
       fetch(
-        `http://localhost:3000/add-recipes?email=${userEmail}`
+        `https://recipe-book-server-blond.vercel.app/add-recipes?email=${userEmail}`
       )
         .then((res) => res.json())
         .then((data) => {
@@ -75,7 +75,7 @@ const MyRecipes = () => {
       })
       .then((result) => {
         if (result.isConfirmed) {
-          fetch(`http://localhost:3000/add-recipes/${id}`, {
+          fetch(`https://recipe-book-server-blond.vercel.app/add-recipes/${id}`, {
             method: "DELETE",
           })
             .then((res) => res.json())
@@ -173,7 +173,7 @@ const MyRecipes = () => {
       likeCount: formData.likeCount,
     };
 
-    fetch(`http://localhost:3000/add-recipes/${formData._id}`, {
+    fetch(`https://recipe-book-server-blond.vercel.app/add-recipes/${formData._id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
