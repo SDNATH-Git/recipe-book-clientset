@@ -63,7 +63,7 @@ const Navbar = () => {
       className={`bg-white text-gray-800 sticky top-0 z-50 transition-all duration-300 border-b-4 border-transparent ${isSticky ? "border-orange-500 shadow-lg" : ""
         }`}
     >
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="container mx-auto px-4  flex items-center justify-between">
         {/* Logo */}
         <img className="w-32 h-16" src={Logo} alt="Logo" />
 
