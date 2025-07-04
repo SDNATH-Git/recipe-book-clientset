@@ -1,8 +1,8 @@
 # 🍽️ Recipe Book
 
-Live Site: [https://recipebook99.netlify.app/](https://recipebook99.netlify.app/)  
-Client Repo: [GitHub - Client](https://github.com/Programming-Hero-Web-Course4/b11a10-client-side-iktushar01.git)  
-Server Repo: [GitHub - Server](https://github.com/Programming-Hero-Web-Course4/b11a10-server-side-iktushar01.git)
+Live Site: [ https://recipe-book-app-93e6e.web.app/ ] 
+Client Repo: [ https://github.com/Programming-Hero-Web-Course4/b11a10-client-side-SDNATH-Git ] 
+Server Repo: [ https://github.com/Programming-Hero-Web-Course4/b11a10-server-side-SDNATH-Git ]
 
 ## 🔥 Website Features
 
