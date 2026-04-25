@@ -1,6 +1,6 @@
 # 🍽️ Recipe Book
 
-🔗 **Live Site:** [https://recipe-book-app-93e6e.web.app/](https://recipe-book-app-93e6e.web.app/)  
+🔗 **Live Site:** [https://recipe-book-app-93e6e.web.app/](https://recipe-book-app-93e6e.web.app)  
 
 
 ---
